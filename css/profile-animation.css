@@ -1,0 +1,56 @@
+/*Skill Bar*/
+.container {
+    margin: 10px;
+    width: 100%;
+    background-color: #000000;
+    animation: skillbar 2s ease;
+  }
+.skills {
+    text-align: right;
+    color: white;
+    height: 2px;
+}
+.html{
+    width: 90%;
+    background-color: #ffffff;
+}
+.css{
+    width: 85%;
+    background-color:  #ffffff;
+}
+.javaScript{
+    width: 80%;
+    background-color:  #ffffff;
+}
+.bash{
+    width: 65%;
+    background-color:  #ffffff;
+}
+.java{
+    width: 90%;
+    background-color: #ffffff;
+}
+.photoShop{
+    width: 75%;
+    background-color: #ffffff;
+}
+.videoEditing{
+    width: 65%;
+    background-color: #ffffff;
+}
+.english {
+    width: 90%;
+    background-color: #2072a1;
+}
+.filipino {
+    width: 100%;
+    background-color:  #ca4540;
+}
+@keyframes skillbar{
+    0% {
+        width: 20%;
+    }
+    100% {
+        width: 100%;
+    }
+}

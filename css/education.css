@@ -1,0 +1,74 @@
+.education {
+    background: white;
+    width: 100%;
+}
+.container-education {
+    padding: 50px 150px;
+}
+.container-education img {
+    height: 30vh;
+    border-radius: 50%;
+}
+.education ol li{
+    display: inline-flex;
+}
+
+/*Overlays Image*/
+.cont {
+    position: relative;
+    margin: 50px 50px;
+    margin-right: 15vw;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%; /*at normal size 100%*/
+    right: 0;
+    background-color: #000000;
+    overflow: hidden;
+    width: 37vh; /*originally 0*/
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+.cont:hover .overlay {
+    width: 100%;
+}
+#text-info{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+@media screen and (max-width: 730px){
+    .cont {
+        margin: 50px;
+    }
+    .overlay {
+        left: 0;
+        width: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .container-education {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-education {
+        padding: 10px 10px;
+    }
+    .cont {
+        margin: 10px;
+    }
+    .overlay {
+        left: 0;
+        width: 0;
+    }
+}

@@ -1,0 +1,85 @@
+.reference {
+    padding: 30px;
+    color: white;
+    background: black;
+    padding-bottom: 10vh;
+}
+.container-reference{
+    display: inline-flex;
+    margin-left: 10vw;
+}
+.container-reference img {
+    height: 30vh;
+    border-radius: 50%;
+    margin: 30px;
+}
+.card1 {
+    border: 1px solid white;
+    width: 20vw;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card2 {
+    border: 1px solid white;
+    width: 20vw;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card3{
+    border: 1px solid white;
+    width: 20vw;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer {
+    height: 10vh;
+    color: rgb(85, 85, 85);
+    margin: 0 !important;
+    background: #161616;
+    padding-top: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 1110px){
+    .container-reference img{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 900px){
+    .container-reference {
+        display: flex;
+    }
+    .container-reference img {
+        height: 100px;
+    }
+}
+@media screen and (max-width: 900px){
+    .container-reference {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .container-reference img{
+        height: 80px;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-reference img {
+        height: 70px;
+        margin: 0;
+    }
+    .container-reference{
+        margin: 0;
+        display: flex;
+    }
+    .card1, .card2, .card3{
+        margin: 0;
+        width: 33%;
+        margin: 3px;
+    }
+}
