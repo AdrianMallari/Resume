@@ -55,18 +55,20 @@ label {
         height: 8vh;
     }
     nav {
-        float: none;
-        margin-top: 70px;
+        margin-top: 50px;
+        float: left;
         display: none;
-        height: 200px;
+        height: 100vh;
+        width: 40vw;
+        background: black;
     }   
     ul li{
         margin-top: 30px;
     }
     ul li a{
-        border-bottom: 1px solid black;
-        border-top: 1px solid black;
-        filter: drop-shadow(1px 1px white);
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        color: white;
     }
     ul {
         margin: 0;
@@ -98,17 +100,22 @@ label {
         height: 8vh;
     }
     nav {
+        margin-top: 60px;
         float: none;
-        margin-top: 70px;
         display: none;
-        height: 200px;
+        height: 100vh;
+        width: 40vw;
     }   
+    .nav-link {
+        padding-top: 10px;
+    }
     ul li{
         margin-top: 30px;
     }
     ul li a{
-        border-bottom: 1px solid black;
-        border-top: 1px solid black;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        color: white;
     }
     ul {
         margin: 0;
