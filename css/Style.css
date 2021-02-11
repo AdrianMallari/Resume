@@ -64,7 +64,9 @@ label {
         margin-top: 30px;
     }
     ul li a{
-        border: 1px solid white;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        filter: drop-shadow(1px 1px white);
     }
     ul {
         margin: 0;
@@ -105,7 +107,8 @@ label {
         margin-top: 30px;
     }
     ul li a{
-        border: 1px solid white;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
     }
     ul {
         margin: 0;
