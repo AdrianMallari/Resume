@@ -33,9 +33,21 @@
 .objective{
     margin: 0px 175px 20px 35px;
 }
+.card p{
+    font-family: 'Agency FB', arial;
+    font-size: 20px;
+}
+.card h5 {
+    font-family: 'Agency FB', arial;
+}
+.card ol li{
+    font-family: 'Agency FB', arial;
+    font-size: 20px;
+}
 .card h2{
     margin-bottom: 20px;
     margin-top: 20px;
+    font-family: 'Agency FB', arial;
 }
 .skillbars {
     width: 80%;
